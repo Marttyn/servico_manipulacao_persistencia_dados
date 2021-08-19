@@ -9,11 +9,11 @@ Sistema feito com o framework Laravel, com o objetivo de tratar e importar dados
 - Clone o repositório
 - Acesse a pasta raiz do projeto
 - Copie o arquivo ```.env.example``` e altere o nome para ```.env```
+- Execute o comando ```composer install``` para instalar todas as dependências
 - Execute o comando ```./vendor/bin/sail up``` para inicializar o docker
   - Se desejar adicione o parâmetro ```-d``` para executar em plano de fundo
 - Para acessar a linha de comando do docker execute o comando 
   - ```docker exec -it servico_manipulacao_persistencia_dados_laravel.test_1 bash```
-- Execute o comando ```composer install``` para instalar todas as dependências
 - Execute o comando ```php artisan migrate``` para criar a tabela dos dados
 
 ## Como importar os dados
